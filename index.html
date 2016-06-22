@@ -24,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/menu_topexpand.css"> 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
                 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -36,8 +37,8 @@
   <div id="header">
     <div class="container">
       <div class="col-md-12 top-header">
-        <div class="logo-menu">
-          <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
+        <!-- <div class="logo-menu">
+          <div class="logo pull-right wow fadeInDown animated" data-wow-delay=".2s">
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
           </div> 
           <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
@@ -46,9 +47,9 @@
             </div> 
           </div> 
         </div>
-        <div class="sidebar-nav">
+        <div class="sidebar-nav"> -->
           <!-- navigation start -->
-          <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
+          <!-- <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
             <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
             <ul class="nav navmenu-nav">
               <li class="active"><a href="#header">Home</a></li>
@@ -57,8 +58,22 @@
               <li><a href="#blog">Projects</a></li>
               <li><a href="#feedback">Hire/Contact Me</a></li>
             </ul>
-          </div>
+          </div> -->
           <!-- navigation End -->
+           <div class="menu-wrap">
+        <nav class="menu">
+          <div class="icon-list">
+            <a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
+            <a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Alerts</span></a>
+            <a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Messages</span></a>
+            <a href="#"><i class="fa fa-fw fa-comment-o"></i><span>Comments</span></a>
+            <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Analytics</span></a>
+            <a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Reading List</span></a>
+          </div>
+        </nav>
+      </div>
+      <button class="menu-button" id="open-button"></button>
+
         </div>     
       </div>
       <div class="row">
@@ -507,6 +522,10 @@
   <script src="assets/js/owl.carousel.js"></script>
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
+
+   <script src="assets/js/classie.js"></script>
+    <script src="assets/js/main1.js"></script>
+
 
 </body>
 </html>

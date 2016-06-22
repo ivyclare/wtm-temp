@@ -155,14 +155,13 @@ img {
   display: block;
 }
 #header .top-header {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 #header .top-header #menu {
   display: block;
   width: 48px;
   height: 48px;
-  border: 1px solid #ffffff;
-  padding: 24px 30px;
+  padding: 0px 1100px;
   cursor: pointer;
 }
 #header .top-header #menu span {
