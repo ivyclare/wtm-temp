@@ -98,17 +98,28 @@
 }
 
 .icon-list {
-	float: right;
-	padding: 2.5em 2em 0 6em;
+	/*float: right;*/
+	padding: 2.5em 2em 0 8em;
+
 }
 
 .icon-list a {
 	opacity: 0;
 	display: inline-block;
-	padding: 0 0.2em;
+	padding: 0 2em;
 	margin: 0 15px;
 	text-align: center;
-	font-size: 1.2em;
+	color: #fff;
+	font-size: 1.5em;
+	border-right: 0.001px solid #0e2f44;
+}
+
+.icon-list a:hover{
+	color: #66cdaa;
+}
+
+.icon-list a:last-of-type {
+border-right: none;
 }
 
 .icon-list a span {
@@ -124,7 +135,7 @@
 	.icon-list a {
 		padding: 0.5em 0em;
 		margin: 0 5px;
-		font-size: 1em;
+		font-size: 1em;		
 	}
 	.icon-list a span {
 		display: none;
