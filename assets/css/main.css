@@ -99,9 +99,13 @@ img {
   transition: all 0.3s ease;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> cc6d1492585d24dd05cce456282205d65c057812
+=======
+
+>>>>>>> upstream/master
 /* Navbar  start */
 #navigation {
   background: #82BC00;
@@ -158,14 +162,13 @@ img {
   display: block;
 }
 #header .top-header {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 #header .top-header #menu {
   display: block;
   width: 48px;
   height: 48px;
-  border: 1px solid #ffffff;
-  padding: 24px 30px;
+  padding: 0px 1100px;
   cursor: pointer;
 }
 #header .top-header #menu span {
@@ -345,17 +348,7 @@ img {
   opacity: 1;
 }
 /* Works Section End */
-/* Testimonial Section Start */
-/*#testimonial {
-<<<<<<< HEAD
-  background: url(../img/backgrounds/bg.jpg);
-=======
-  background: url(../img/backgrounds/wtm2.jpeg);
-  background-color: #03070C;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
-  background-size: cover;
-  color: #ffffff;
-}*/
+/* Organizer Section Start */
 #testimonial {
  /* background: url(../img/backgrounds/wtm2.jpeg);*/
   background-color: #03070C;
@@ -374,17 +367,7 @@ img {
   background: rgba(54, 74, 86, 0.3);
   margin: 0 90px 0 100px;
 }
-/*#testimonial .commant .claint {
-  width: 270px;
-  height: 270px;
-  margin-left: -15px;
-  position: relative;
-<<<<<<< HEAD
-=======
-  text-align: center;
-  padding-top: 60px;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
-}*/
+
 #testimonial .commant .claint {
   width: 270px;
   height: 270px;
@@ -403,17 +386,8 @@ img {
   border-radius: 50%;
   text-align: center;
 }
-/*#testimonial .commant .quote i {
-  font-size: 30px;
-<<<<<<< HEAD
-  color: #82bc00;
-=======
-  color: #0DBBA1;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
-  line-height: 65px;
-}*/
+
 #testimonial .commant .quote i {
-  font-size: 30px;
   color: #0DBBA1;
   line-height: 65px;
 }
@@ -431,20 +405,6 @@ img {
 }
 
 
-/*<<<<<<< HEAD
-=======
-#testimonial .commant .info p a img{
-  height: 40px;
-  width: 40px;
-}
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812*/
-
-/*#testimonial .commant .info h4 {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 26px;
-  text-transform: uppercase;
-}*/
 #testimonial .commant .info h5 {
   font-size: 16px;
   font-weight: 200;
@@ -462,14 +422,6 @@ img {
   border: none;
   background-color: #ffffff;
 }
-/*#testimonial .carousel-indicators .active {
-<<<<<<< HEAD
-  background-color: #82bc00;
-=======
-  background-color: #0DBBA1;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
-  border: none;
-}*/
 #testimonial .carousel-indicators .active {
   background-color: #0DBBA1;
   border: none;
