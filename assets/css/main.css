@@ -98,10 +98,7 @@ img {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
 /* Navbar  start */
 #navigation {
   background: #82BC00;
@@ -347,12 +344,8 @@ img {
 /* Works Section End */
 /* Testimonial Section Start */
 #testimonial {
-<<<<<<< HEAD
-  background: url(../img/backgrounds/bg.jpg);
-=======
  /* background: url(../img/backgrounds/wtm2.jpeg);*/
   background-color: #03070C;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
   background-size: cover;
   color: #ffffff;
 }
@@ -373,11 +366,8 @@ img {
   height: 270px;
   margin-left: -15px;
   position: relative;
-<<<<<<< HEAD
-=======
   text-align: center;
   padding-top: 60px;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
 }
 #testimonial .commant .quote {
   background: #ffffff;
@@ -391,11 +381,7 @@ img {
 }
 #testimonial .commant .quote i {
   font-size: 30px;
-<<<<<<< HEAD
-  color: #82bc00;
-=======
   color: #0DBBA1;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
   line-height: 65px;
 }
 #testimonial .commant .info {
@@ -409,13 +395,10 @@ img {
   text-align: justify;
   padding-bottom: 32px;
 }
-<<<<<<< HEAD
-=======
 #testimonial .commant .info p a img{
   height: 40px;
   width: 40px;
 }
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
 #testimonial .commant .info h4 {
   font-size: 22px;
   font-weight: 700;
@@ -436,11 +419,7 @@ img {
   background-color: #ffffff;
 }
 #testimonial .carousel-indicators .active {
-<<<<<<< HEAD
-  background-color: #82bc00;
-=======
   background-color: #0DBBA1;
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
   border: none;
 }
 /* Testimonial Section End */
