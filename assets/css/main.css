@@ -100,9 +100,9 @@ img {
 }
 /* Navbar  start */
 #navigation {
-  background: #333333;
-  border: 1px solid #333333;
-  /*color: #fff;*/
+  background: #82BC00;
+  border: 1px solid #82BC00;
+  color: #fff;
   padding-top: 50px;
   text-align: center;
   width: 300px;
@@ -115,15 +115,16 @@ img {
   width: 100px;
 }
 #navigation .nav li {
-   margin: 10px 40px;
-   display: inline;
+  border: 1px solid transparent;
+  margin: 10px 40px;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
 }
 #navigation .nav li a {
-  padding-top: -500px;
   background: transparent;
   color: #fff;
   font-size: 16px;
-  display: inline-block;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -159,7 +160,8 @@ img {
   display: block;
   width: 48px;
   height: 48px;
-  padding: 0px 1100px;
+  border: 1px solid #ffffff;
+  padding: 24px 30px;
   cursor: pointer;
 }
 #header .top-header #menu span {
