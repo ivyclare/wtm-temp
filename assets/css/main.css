@@ -673,6 +673,17 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
 #testimonial .section-title {
   color: #ffffff;
 }
+#testimonial #description{
+  text-align: justify;
+  padding: 0 150px 10px 150px;
+  font-size: 18px;
+  font-style: italic;
+  
+  /*padding-bottom: 20px;*/
+}
+#testimonial #description b{
+  color: #0DBBA1;
+}
 #testimonial blockquote {
   border-left: none;
   margin: 0;
