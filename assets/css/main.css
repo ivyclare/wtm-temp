@@ -35,6 +35,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .section-title {
   text-align: left;
   font-size: 32px;
@@ -101,9 +102,9 @@ img {
 
 /* Navbar  start */
 #navigation {
-  background: #82BC00;
-  border: 1px solid #82BC00;
-  color: #fff;
+  background: #333333;
+  border: 1px solid #333333;
+  /*color: #fff;*/
   padding-top: 50px;
   text-align: center;
   width: 300px;
@@ -116,16 +117,15 @@ img {
   width: 100px;
 }
 #navigation .nav li {
-  border: 1px solid transparent;
-  margin: 10px 40px;
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
+   margin: 10px 40px;
+   display: inline;
 }
 #navigation .nav li a {
+  padding-top: -500px;
   background: transparent;
   color: #fff;
   font-size: 16px;
+  display: inline-block;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -456,15 +456,17 @@ nav.tabs ul li a span:active { color: #a2680c; }
 
 nav.tabs ul li a:hover { background-color: #1d2945; }
 /* Navbar End */
+
 /* Header Section Start */
 #header {
   width: 100%;
-  background: url(../img/backgrounds/banner.jpg);
+  background: url(../img/backgrounds/skill-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   color: #ffffff;
 }
+
 #header:before {
   background: rgba(1, 0, 2, 0.7);
   position: absolute;
@@ -523,15 +525,24 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
 #header .top-header #menu:hover span:before {
   background: #82BC00;
 }
+#header .background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(../img/background/main-video.mp4  ) no-repeat;*/
+    background-size: cover;
+}
 
 #header .banner {
   margin: 50px;
-}
-#header .banner h1 {
-  color: #82BC00;
-  font-size: 42px;
-  font-weight: 400;
-  text-transform: uppercase;
+
 }
 #header .banner h2 {
   color: #ffffff;
@@ -543,7 +554,7 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
 }
 #header .banner .scroll a i {
   font-size: 48px;
-  color: #82BC00;
+  color: #1e7a6f;
   padding: 12px;
   width: 68px;
   height: 68px;
@@ -555,7 +566,7 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   transition: all 0.3s ease;
 }
 #header .banner .scroll a i:hover {
-  background: #82BC00;
+  background: #ccccff;
   color: #ffffff;
 }
 
@@ -663,7 +674,7 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   opacity: 1;
 }
 /* Works Section End */
-/* Organizer Section Start */
+/* about us Section Start */
 #testimonial {
  /* background: url(../img/backgrounds/wtm2.jpeg);*/
   background-color: #03070C;
@@ -1004,11 +1015,11 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   font-weight: 400;
 }
 #footer a {
-  color: #82bc00;
+  color: #ffffff;
   text-decoration: none;
 }
 #footer a:hover {
-  color: #6c9c01;
+  color: #1e7a6f;
 }
 
 /* Footer Section End */
