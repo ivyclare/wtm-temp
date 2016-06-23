@@ -37,7 +37,7 @@ img {
 }
 .section-title {
   text-align: left;
-  font-size: 52px;
+  font-size: 32px;
   font-weight: 400;
   color: #454545;
   margin: 0 10px;
@@ -98,14 +98,7 @@ img {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> cc6d1492585d24dd05cce456282205d65c057812
-=======
-
->>>>>>> upstream/master
 /* Navbar  start */
 #navigation {
   background: #82BC00;
@@ -718,11 +711,11 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
 }
 
 #testimonial .commant .info p {
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 100;
-  font-style: italic;
+ font-size: 16px;
+   color: #ffffff;
+  font-weight: 50; 
   text-align: justify;
+  /*font-style: italic;*/
   padding-bottom: 32px;
 }
 
