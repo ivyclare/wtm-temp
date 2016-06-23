@@ -90,245 +90,58 @@
         </div>
       </div>
     </div>
-
-    <!--Nav Bar Start -->
-    <div class="svg-wrap">
-      <svg width="64" height="64" viewBox="0 0 64 64">
-        <path id="arrow-left" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
-      </svg>
-
-      <svg width="64" height="64" viewBox="0 0 64 64">
-        <path id="arrow-right" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
-      </svg>
-    </div>
-    <!-- Nav Bar End -->
-
-      
-      <!-- <a href="http://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> Arrows with <a href="http://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a>s -->
-      <nav class="nav-split"> <a class="prev" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
-        <use xlink:href="#arrow-left" />
-        </svg></span>
-        <div>
-          <h3>test</h3>
-          <img alt="Previous thumb"/> </div>
-        </a> <a class="next" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
-        <use xlink:href="#arrow-right" />
-        </svg></span>
-        <div>
-          <h3>test</h3>
-          <img alt="Next thumb"/> </div>
-        </a> </nav>
-      
-     <div class="dotstyle dotstyle-puff">
-  <ul>
-    <li class="active"><a href="#">Home</a></li>
-            <li><a href="#works"> Gallery</a></li>
-            <li><a href="#testimonial"> WTM Organisers</a></li>
-            <li><a href="#clients"> Partners</a></li>
-            <li><a href="#skills"> Event Calendar</a></li>
-            <li><a href="#blog"> Our Projects</a></li>
-            <li><a href="#feedback">Contact Info</a></li> 
-  </ul>
-</div>
-    </div>
-
-
-    <!--Build html structure end-->
-
-    <!--Nav Bar Start
-
-    <nav>
-  <div class="wrapper">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="52.012px" height="51.679px" viewBox="0 0 52.012 51.679" enable-background="new 0 0 52.012 51.679" xml:space="preserve">
-      <g>
-        <path fill="#231F20" d="M12.674,37.779l-6.288,13.9H0L23.396,0h4.963l23.652,51.679h-6.465l-6.473-13.9l-2.652-6.04L25.874,8.818 l-10.461,22.92L12.674,37.779z"/>
-      </g>
-      <rect x="18.825" y="32.195" fill="#231F20" width="14.36" height="2.51"/>
-      <rect x="18.825" y="38.134" fill="#231F20" width="14.36" height="2.51"/>
-      <rect x="18.825" y="44.294" fill="#231F20" width="14.36" height="2.51"/>
-    </svg>
-
-<
-    <div class="nodes"> 
-        
-        <div class="line">
-          <div class="blue">
-            <div class="red-container">
-              <div class="red"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-    
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-    
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-            
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-        
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-    
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-        
-        <div class="node">
-          <div class="active-circle">
-            <div class="splash"></div>
-            <div class="cover">
-              <div class="white"></div>
-            </div>
-          </div>
-          <div class="inactive-circle">
-            <div class="small-cover">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="shares">
-        <div class="facebook-shares">
-          <div class="sharer genericon genericon-facebook-alt"></div>
-          <div class="share-button">
-            <div class="fb-like" data-href="http://aquatilis.tv/" data-width="120px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-          </div>
-        </div>
-        <div class="twitter-shares">
-          <div class="sharer genericon genericon-twitter"></div>
-          <div class="share-button">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-counturl="http://aquatilis.tv/" data-url=" " data-text="#Aquatilis is on a quest to find the weirdest creatures that lurk in the deep. Have a look: http://goo.gl/Nw4lbB @aquatilis_tv">Tweet</a>
-          </div>
-        </div>
-      </div>
-  </div>
-</nav> -->
-
-    <!--Nav Bar End -->
   </div>
   <!-- Header Section End -->
-
-  <!-- Work Section Start -->
+  
+  <!-- Gallery Section Start -->
   <section id="works">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Gallery</span></h1>
         <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
           <div class="large">
-            <img src="assets/img/work/img1.jpg" alt="">
+            <img src="assets/img/wtm/wtm6.jpg" alt="">
             <div class="overlay">
-              <a href="assets/img/work/img1.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+              <a href="assets/img/wtm/wtm13.JPG" data-lightbox="img1"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/work/img2.jpg" alt="">
+            <img src="assets/img/wtm/wtm2.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/work/img2.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm8.JPG" data-lightbox="img2"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/work/img3.jpg" alt="">
+            <img src="assets/img/wtm/wtm11.JPG" alt="">
             <div class="overlay">
-               <a href="assets/img/work/img3.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
-            </div>
+               <a href="assets/img/wtm/wtm4.JPG" data-lightbox="img3"><i class="fa fa-search"></i></a>
+           </div>
           </div>
         </div>
         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="grid-box large">
-            <img src="assets/img/work/img4.jpg" alt="">
+            <img src="assets/img/wtm/wtm35.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/work/img4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm37.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/work/img5.jpg" alt="">
+            <img src="assets/img/wtm/wtm39.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/work/img5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
-            </div>
-          </div>
-          <div class="browse-box">
-            <div class="more">
-              <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
-            </div>
-          </div>
+               <a href="assets/img/wtm/wtm32.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+           </div>
+         </div>
+              <div class="browse-box">
+                <div class="more">
+                  <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+                </div>
+              </div>
         </div>
-      </div>
     </div>
-<<<<<<< HEAD
 </div>
 </section>
   <!-- Gallery Section End  -->
-<!-- Testimonial Section Start -->
-=======
-  </section>
-  <!-- Work Section End  -->
-
   <!-- Testimonial Section Start -->
->>>>>>> upstream/master
   <section id="testimonial">
     <div class="container">
       <div class="row">
@@ -359,19 +172,19 @@
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                        Meet<br>
-                        <b>Mpara Faith (WTM-buea Leader and Founder)</b> </br></br>
-                        <p> 
-                          Graduated as a Computer Enginner, Software Engineer to be specific from the University Of Buea. She is also the
-                          Co-Founder / Manager at NGC and Homeware.<br>
-                          Top Skills include: Linux,HTML etc.
-                        </p>
+                      Meet<br>
+                      <b>Mpara Faith (WTM-buea Leader and Founder)</b> </br></br>
+                      <p> 
+                      Graduated as a Computer Enginner, Software Engineer to be specific from the University Of Buea. She is also the
+                      Co-Founder / Manager at NGC and Homeware.<br>
+                      Top Skills include: Linux,HTML etc.
+                      </p>
 
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/profile.php?id=100006099376899&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/mpara10"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    
+                        <a href="https://plus.google.com/104947901967244626615/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
                     </div>
                   </div>
                 </div>
@@ -392,13 +205,12 @@
                      
                         Meet </br> <b>Nkweteyim Daisy &#40;Founder&#41;</b> </br></br>
                         <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An open source contributor and an advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). I work with the Afrovision group on the Njorku project.
-                        </p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An open source contributor and an advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). I work with the Afrovision group on the Njorku project.
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/daisy.nkweteyim?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/nkweteyimdaisy" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       
                     </div>
                   </div>
@@ -419,13 +231,12 @@
                       
                         Meet </br> <b>Nsiany Sandra &#40;Founder&#41; </b> </br></br>
                         <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). 
-                        </p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). 
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/SandraEmmaNsiany?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/emmabest03" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
                     </div>
                   </div>
@@ -445,14 +256,13 @@
                     <div class="info">
                      
                         Meet </br> <b>Nkeangnyi Tonia &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                       <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/111416768226432557738/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/tonia.nkeangnyi?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/tonietonia" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/111416768226432557738/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       
                     </div>
                   </div>
@@ -472,14 +282,13 @@
                     <div class="info">
                       
                         Meet </br> <b>Ngong Ivoline &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                      <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/s/ivoline%20ngong" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/ivoline.ngong?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/IvolineNgong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/s/ivoline%20ngong" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       
                     </div>
                   </div>
@@ -499,14 +308,13 @@
                     <div class="info">
                       
                         Meet</br> <b>Moba Melvis &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                      <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/profile.php?id=100004520132107" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/Ringnyum" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
                     </div>
                   </div>
@@ -526,14 +334,13 @@
                     <div class="info">
                       
                         Meet </br> <b>Ngong Ivan &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          An Electrical and Electronics Engineering student specialized in Telecommunication Engineering.
-                        </p>
+                      <p>
+                        An Electrical and Electronics Engineering student specialized in Telecommunication Engineering.
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/108522470742206129289/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/ngong.ivan?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/Ivanngong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/108522470742206129289/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
                     </div>
                   </div>
@@ -546,47 +353,53 @@
     </div>
   </section>
   <!-- Testimonial Section End -->
-  
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>
-        <div id="clients-carousel" class="owl-carousel owl-theme">
-          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-            <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
-          </div>
-          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-            <a href="#"><img src="assets/img/clients/img2.png" alt=""></a>
-          </div>
-          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-            <a href="#"><img src="assets/img/clients/img3.png" alt=""></a>
-          </div>
-          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-            <a href="#"><img src="assets/img/clients/img4.png" alt=""></a>
-          </div>
-          <div class="item wow fadeIn animated">
-            <a href="#"><img src="assets/img/clients/img5.png" alt=""></a>
-          </div>
-          <div class="item wow fadeIn animated">
-            <a href="#"><img src="assets/img/clients/img6.png" alt=""></a>
-          </div>
-          <div class="item wow fadeIn animated">
-            <a href="#"><img src="assets/img/clients/img7.png" alt=""></a>
-          </div>
+          <div class="col-sm-8">
+            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
+            <div id="clients-carousel" class="owl-carousel owl-theme">
+            <!--  <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+                <a href="http://www.gdgbuea.org/"><img src="assets/img/gdgbuea.png" alt=""></a>
+            </div> -->
+              <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a>
+                    <span><b><h3>Univ. of Buea</h3></b></span>
+              </div>
+              <span>
+                  <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+                    <a href="http://activspaces.com/"><img src="assets/img/activspaces.png" alt="" id="activSpaces"></a><br><br>
+                        <span><b><h3>ACTIVSPACES</h3></b></span>
+                  </div>
+              </span>
+            </div>
         </div>
+
+        <div class="col-sm-4" id="sponsor">
+            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Sponsor</h1>
+            <div id="clients-carousel" class="owl-theme">
+                <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+                    <a href="http://www.gdgbuea.org/">
+                        <img src="assets/img/gdg buea logo.png" alt="" id="gdg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
       </div>
     </div>
   </section>
-  <!-- Clients Section End -->
+  <!-- Partners Section End -->
 
   <!-- Skills Section Start -->
   <section id="skills">
     <div class="container">
       <div class="row">
       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Our  <span>Events</span></h1>
-          <h3 class=" wow fadeInLeft animated" data-wow-delay=".9s">You can find our past, present and future events on the calendar.</h3> </br>
-      <iframe src="https://calendar.google.com/calendar/embed?height=550&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=wtmbuea%40gmail.com&amp;color=%231B887A&amp;src=%23contacts%40group.v.calendar.google.com&amp;color=%2328754E&amp;src=fr.cm%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Africa%2FLagos" style="border:solid 1px #777" width="700" height="550" frameborder="0" scrolling="no"></iframe> 
+
+          <h3 class=" wow fadeInLeft animated" data-wow-delay=".9s">You can find our past, present and future events on our calendar.</h3> </br>
+      <iframe src="https://calendar.google.com/calendar/embed?title=Women%20Techmakers%20Buea&amp;height=500&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=wtmbuea%40gmail.com&amp;color=%231B887A&amp;ctz=Africa%2FLagos" style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe>
       <!--div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
         <div class="fact-block">
           <div class="circle one">
@@ -628,6 +441,7 @@
         </div>
       </div>
       </div-->
+
     </div>
   </section>
   <!-- Skills Section End -->
@@ -679,7 +493,7 @@
       </div>
     </div>
   </section>
-  <!-- Blog Section Start -->
+  <!-- Projects Section Start -->
 
   <!-- Feedback Section Start -->
   <section id="feedback">
@@ -705,7 +519,6 @@
 	      <a href="https://github.com/wtm-buea" style="color:white;font-size:45px"><i class="fa fa-github"></i></a> 
               
               <!-- <a href="http://youtube.com/" style="color:white"><i class="fa fa-youtube"></i></a> -->
-
         </div>
       </div>
     </div>
@@ -718,7 +531,7 @@
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
           <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
-            <p>Copyright &copy; 2014 GrayGrids | All rights reserved.</p>
+            <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>>
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -757,14 +570,8 @@
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
 
-<!-- <<<<<<< HEAD
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-  <script src="javascripts/sleekslider.min.js"></script>
-======= -->
-  <script src="assets/js/classie.js"></script>
-  <script src="assets/js/main1.js"></script>
-
+   <script src="assets/js/classie.js"></script>
+    <script src="assets/js/main1.js"></script>
 
 
 </body>
