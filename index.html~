@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="shortcut icon" href="/img/favicons/favicon.ico">
 
   <title>Women Techmakers Buea </title>
 
@@ -13,19 +11,12 @@
   <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
   <!-- Main Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-     
+  
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/partners.css">
-
-  <!-- Slider style: Browse all -->
-  <link rel="stylesheet" type="text/css" href="assets/ninja/ninja-slider.css">
   
   <!--Fonts-->
   <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
-
-  <!-- jquery horizontal scrolling -->
-  
 
   <!-- Extras -->
   <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
@@ -40,24 +31,37 @@
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
               <![endif]-->
 </head>
-
 <body>
- <!-- start of the body -->
+	 
   <!-- Header Section Start -->
-   <div id="header">
+  <div id="header">
     <div class="container">
-
       <div class="col-md-12 top-header">
-
-        <div class="logo-menu">
-          <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
-            <a href="index.html">
-              <img src="assets/img/WT_logo_horizontal_pos.png" alt="logo">
-            </a>
-
-       <div class="menu-wrap">
-         <nav class="menu">
-         
+        <!-- <div class="logo-menu">
+          <div class="logo pull-right wow fadeInDown animated" data-wow-delay=".2s">
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          </div> 
+          <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
+            <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+              <span>menu</span>
+            </div> 
+          </div> 
+        </div>
+        <div class="sidebar-nav"> -->
+          <!-- navigation start -->
+          <!-- <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
+            <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+            <ul class="nav navmenu-nav">
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#works">Portfolio</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#blog">Projects</a></li>
+              <li><a href="#feedback">Hire/Contact Me</a></li>
+            </ul>
+          </div> -->
+          <!-- navigation End -->
+           <div class="menu-wrap">
+        <nav class="menu">
           <div class="icon-list">
             <a href="#"><i class="fa fa-fw fa-home fa-lg"></i><span>HOME</span></a>
             <a href="#"><i class="fa fa-suitcase fa-lg"></i><span>PROJECTS</span></a>
@@ -69,200 +73,82 @@
         </nav>
       </div>
       <button class="menu-button" id="open-button"></button>
-    </div>     
-      </div>
 
-     <div class="row">
+        </div>     
+      </div>
+      <div class="row">
         <div class="col-md-12">
           <div class="banner text-center">
-            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">
-              Google's Women Techmakers program provides visibility, community, and resources for women in technology.
-            </h2>
-            <!-- <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Frankenstein Shuvo Musa</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web developer, WordPressian & GEEK ;)</h2>
+            <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
             <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
-             --><div class="scroll"> 
-              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s">
-               </i>
-              </a>
+            <div class="scroll">
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
           </div>
         </div>
         </div>
       </div>
     </div>
-
-    <!--Nav Bar Start -->
-    <div class="svg-wrap">
-      <svg width="64" height="64" viewBox="0 0 64 64">
-        <path id="arrow-left" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
-      </svg>
-
-      <svg width="64" height="64" viewBox="0 0 64 64">
-        <path id="arrow-right" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
-      </svg>
-    </div>
-    <!-- Nav Bar End -->
-      
-      <!-- <a href="http://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> Arrows with <a href="http://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a>s -->
-      <nav class="nav-split"> <a class="prev" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
-        <use xlink:href="#arrow-left" />
-        </svg></span>
-        <div>
-          <h3>test</h3>
-          <img alt="Previous thumb"/> </div>
-        </a> <a class="next" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
-        <use xlink:href="#arrow-right" />
-        </svg></span>
-        <div>
-          <h3>test</h3>
-          <img alt="Next thumb"/> </div>
-        </a> </nav>
-      
-     <div class="dotstyle dotstyle-puff">
-  <ul>
-    <li class="active"><a href="#">Home</a></li>
-            <li><a href="#works"> Gallery</a></li>
-            <li><a href="#testimonial"> WTM Organisers</a></li>
-            <li><a href="#clients"> Partners</a></li>
-            <li><a href="#skills"> Event Calendar</a></li>
-            <li><a href="#blog"> Our Projects</a></li>
-            <li><a href="#feedback">Contact Info</a></li> 
-  </ul>
-</div>
-    </div>
-
-
-    <!--Nav Bar End -->
   </div>
   <!-- Header Section End -->
   
-<!-- Gallery Section Start -->
+  <!-- Gallery Section Start -->
   <section id="works">
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Gallery</span></h1>
         <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
           <div class="large">
-            <img src="assets/img/gallery/wtm6.jpg" alt="" class="img-responsive" id="wtm6">
+            <img src="assets/img/wtm/wtm6.jpg" alt="">
             <div class="overlay">
-              <a href="assets/img/gallery/wtm6.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+              <a href="assets/img/wtm/wtm13.JPG" data-lightbox="img1"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/gallery/wtm2.jpg" alt="" class="img-responsive" id="wtm2">
+            <img src="assets/img/wtm/wtm2.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/gallery/wtm2.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm8.JPG" data-lightbox="img2"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/gallery/wtm11.JPG" alt="" class="img-responsive" id="wtm11" >
+            <img src="assets/img/wtm/wtm11.JPG" alt="">
             <div class="overlay">
-               <a href="assets/img/gallery/wtm11.JPG" data-lightbox="img3"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm4.JPG" data-lightbox="img3"><i class="fa fa-search"></i></a>
            </div>
           </div>
         </div>
         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="grid-box large">
-            <img src="assets/img/gallery/wtm35.jpg" alt="" class="img-responsive" id="wtm35">
+            <img src="assets/img/wtm/wtm35.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/gallery/wtm35.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm37.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/gallery/wtm37.jpg" alt="" class="img-responsive" id="wtm39">
+            <img src="assets/img/wtm/wtm39.jpg" alt="">
             <div class="overlay">
-               <a href="assets/img/gallery/wtm37.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+               <a href="assets/img/wtm/wtm32.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
            </div>
          </div>
               <div class="browse-box">
                 <div class="more">
-                  <a onclick="lightbox(0)" href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+                  <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
                 </div>
               </div>
-        </div>      
-    </div>
-</div>
-</section>
-
-<!-- The ninja-slider is implemented below -->
-    <div style="display:none;">
-    <div id="ninja-slider">
-        <div class="slider-inner">
-            <ul>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/pic1.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/pic2.jpg"></a>
-                </li>
-                
-                <li>
-                    <a href="/"><img class="ns-img" src="assets/img/gallery/pic3.jpg" /></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/pic4.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/pic5.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/pic7.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm33.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm2.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm6.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm28.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm11.JPG"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm37.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm34.jpg"></a>
-                </li>
-                <li>
-                    <a class="ns-img" href="assets/img/gallery/wtm31.jpg"></a>
-                </li>
-
-                
-                <!--<img src="assets/img/gallery/1.jpg" alt="rotating image" width="600" height="500" id="rotator">
-                <li>
-                  <script type="text/javascript">
-                    (function(){
-                      var rotator = document.getElementById('rotator'),
-                      var 
-                    }
-                  </script>-->
-              
-            </ul>
-            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
         </div>
     </div>
 </div>
-<!-- ninja ends here -->
-
-  <!-- Gallery Section End  -->
-</div>
 </section>
   <!-- Gallery Section End  -->
-<!-- Testimonial Section Start -->
-  </section>
-  <!-- Work Section End  -->
-
   <!-- Testimonial Section Start -->
   <section id="testimonial">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Women TechMakers<br>(WTM)<br><span>Organizers</span></h1>
-         <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
+        
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Women TechMakers (WTM) <br><span>Organizers</span></h1>
+
+        <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
@@ -279,25 +165,26 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/MparaFaith.jpg" alt="">
                           <img src="assets/img/testimonial/MparaFaith.jpg" class="img-circle" alt="">
+
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
                       Meet<br>
-                        <b>Mpara Faith (WTM-buea Leader and Founder)</b> </br></br>
-                        <p> 
-                          Graduated as a Computer Enginner, Software Engineer to be specific from the University Of Buea. She is also the
-                          Co-Founder / Manager at NGC and Homeware.<br>
-                          Top Skills include: Linux,HTML etc.
-                        </p>
+                      <b>Mpara Faith (WTM-buea Leader and Founder)</b> </br></br>
+                      <p> 
+                      Graduated as a Computer Enginner, Software Engineer to be specific from the University Of Buea. She is also the
+                      Co-Founder / Manager at NGC and Homeware.<br>
+                      Top Skills include: Linux,HTML etc.
+                      </p>
 
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/profile.php?id=100006099376899&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/mpara10"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://plus.google.com/104947901967244626615/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
                     </div>
                   </div>
                 </div>
@@ -309,23 +196,21 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                    
                         <img src="assets/img/testimonial/NkweteyimDaisy.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                
+                     
                         Meet </br> <b>Nkweteyim Daisy &#40;Founder&#41;</b> </br></br>
                         <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An open source contributor and an advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). I work with the Afrovision group on the Njorku project.
-                        </p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An open source contributor and an advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). I work with the Afrovision group on the Njorku project.
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/daisy.nkweteyim?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/nkweteyimdaisy" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       
                     </div>
                   </div>
@@ -337,22 +222,22 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                     <img src="assets/img/testimonial/NsianySandra.jpg" class="img-circle" alt="">
+                      <img src="assets/img/testimonial/NsianySandra.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-
+                      
                         Meet </br> <b>Nsiany Sandra &#40;Founder&#41; </b> </br></br>
                         <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). 
-                        </p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). 
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/SandraEmmaNsiany?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/emmabest03" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
                     </div>
                   </div>
                 </div>
@@ -364,22 +249,22 @@
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
                       <img src="assets/img/testimonial/NTonia.jpg" class="img-circle" alt="">
-
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
+                     
                         Meet </br> <b>Nkeangnyi Tonia &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                       <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/111416768226432557738/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/tonia.nkeangnyi?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/tonietonia" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                </div>
+                        <a href="https://plus.google.com/111416768226432557738/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                    </div>
                   </div>
                 </div>
               </blockquote>
@@ -395,16 +280,16 @@
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-
+                      
                         Meet </br> <b>Ngong Ivoline &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                      <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/s/ivoline%20ngong" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/ivoline.ngong?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/IvolineNgong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+                        <a href="https://plus.google.com/s/ivoline%20ngong" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
                     </div>
                   </div>
                 </div>
@@ -421,16 +306,15 @@
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-
+                      
                         Meet</br> <b>Moba Melvis &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
-                        </p>
+                      <p>
+                        Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/profile.php?id=100004520132107" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/Ringnyum" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
+                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
                     </div>
                   </div>
@@ -450,13 +334,14 @@
                     <div class="info">
                       
                         Meet </br> <b>Ngong Ivan &#40;Founder&#41;</b> </br></br>
-                        <p>
-                          An Electrical and Electronics Engineering student specialized in Telecommunication Engineering.
-                        </p>
+                      <p>
+                        An Electrical and Electronics Engineering student specialized in Telecommunication Engineering.
+                      </p>
                         <h5>Get in touch with her: </h5>
-                        <a href="https://plus.google.com/108522470742206129289/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://www.facebook.com/ngong.ivan?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://twitter.com/Ivanngong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://plus.google.com/108522470742206129289/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
                     </div>
                   </div>
                 </div>
@@ -468,37 +353,40 @@
     </div>
   </section>
   <!-- Testimonial Section End -->
-
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
       <div class="row">
-          <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
-          <div class="col-sm-4">
+          <div class="col-sm-8">
+            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
+            <div id="clients-carousel" class="owl-carousel owl-theme">
+            <!--  <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+                <a href="http://www.gdgbuea.org/"><img src="assets/img/gdgbuea.png" alt=""></a>
+            </div> -->
               <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-                  <div></div>
-                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a><br><br>
+                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a>
+                    <span><b><h3>Univ. of Buea</h3></b></span>
               </div>
-                    <span><b><h3>UNIVERSITY OF BUEA</h3></b></span>
-          </div>
-
-          <div class="col-sm-4">
-              <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-                <a href="http://activspaces.com/"><img src="assets/img/activspaces.png" alt="" id="activSpaces"></a><br><br>
-              </div>
-                  <span><b><h3 style="text-align:center; padding-right:20px">ACTIVSPACES</h3></b></span>
-          </div>
-
-          <div class="col-sm-4">
-              <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-                  <div class="col-sm-2"></div>
-                  <div class="col-sm-9">
-                      <a href="http://www.gdgbuea.org/"><img src="assets/img/gdg buea logo.png" alt="" id="gdg" class="img-circle"></a><br><br><br>
+              <span>
+                  <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+                    <a href="http://activspaces.com/"><img src="assets/img/activspaces.png" alt="" id="activSpaces"></a><br><br>
+                        <span><b><h3>ACTIVSPACES</h3></b></span>
                   </div>
-              </div><br><br>
-              <span><b><h3>GOOGLE DEVELOPER GROUP</h3></b></span>
-                    <span><b><h3 style="text-align:center">BUEA</h3></b></span>
-          </div>
+              </span>
+            </div>
+        </div>
+
+        <div class="col-sm-4" id="sponsor">
+            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Sponsor</h1>
+            <div id="clients-carousel" class="owl-theme">
+                <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+                    <a href="http://www.gdgbuea.org/">
+                        <img src="assets/img/gdg buea logo.png" alt="" id="gdg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -560,29 +448,29 @@
 
 
   <!-- Projects Section Start -->
-  <section id="projects">
+  <section id="blog">
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Our<br/><span>Projects</span></h1>
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
           <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
             <img src="assets/img/projects/code.jpg" alt="">
-            <a href="https://github.com/wtm-buea" class="btn btn-common lg wow fadeInRight animated" target="_blank" data-wow-delay="1.0s">Know More</a>
+            <a href="https://github.com/wtm-buea" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Know More</a>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="blog-item">
             <img src="assets/img/projects/evote.jpeg" alt="">
             <div class="content">
-              <a class="title" href="https://github.com/wtm-buea/voting-app" target="_blank">Voting App</a>
-              <p>An E-voting application</p>
+              <a class="title" href="https://github.com/wtm-buea/voting-app">Voting App</a>
+              <p>An evoting application</p>
             </div>
           </div>
           <div class="blog-item">
             <img src="assets/img/projects/watering.jpg" alt="">
             <div class="content">
-              <a class="title" href="https://github.com/wtm-buea/watering-system" target="_blank">Automatic Watering System</a>
-              <p>Waters plants automatically, depending on specified conditions</p>
+              <a class="title" href="https://github.com/wtm-buea/watering-system">Automatic Watering System</a>
+              <p>Waters plants automatically depending on conditions</p>
             </div>
           </div>
         </div>
@@ -590,14 +478,14 @@
           <div class="blog-item">
             <img src="assets/img/projects/cocoa.jpeg" alt="">
             <div class="content">
-              <a class="title" href="https://github.com/wtm-buea/season_alert" target="_blank">Season Alert for farmers</a>
-              <p>Notifies farmers when it is safe to plant- seasons for different crops.</p>
+              <a class="title" href="https://github.com/wtm-buea/season_alert">Season Alert for farmers</a>
+              <p>Notifies farmers when it safe to plant- seasons for different crops.</p>
             </div>
           </div>
           <div class="blog-item">
             <img src="assets/img/projects/attire.jpeg" alt="">
             <div class="content">
-              <a class="title" href="https://github.com/wtm-buea/african-attire" target="_blank">African Attire App </a>
+              <a class="title" href="https://github.com/wtm-buea/african-attire">African Attire App </a>
               <p>An app which promotes our african tradition through clothes</p>
             </div>
           </div>
@@ -621,7 +509,8 @@
         <br>
         <br>
 
-        <div style="text-align:center">	      
+        <div style="text-align:center">
+	      
               <a href="https://plus.google.com/u/0/+tchuenkamulrich" style="color:white;font-size:45px"><i class="fa fa-google-plus"></i></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.facebook.com/"  target="_blank"style="color:white;font-size:45px"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -642,7 +531,7 @@
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
           <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
-            <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>
+            <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>>
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -662,8 +551,6 @@
   <script src="assets/js/jquery-min.js"></script>
   <!-- Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
-  <!-- Gallery slider: Browse all -->
-  <script src="assets/ninja/ninja-slider.js"></script>
   <!-- WOW JS plugin for animation -->
   <script src="assets/js/wow.js"></script>
   <!-- All JS plugin Triggers -->
@@ -682,24 +569,10 @@
   <script src="assets/js/owl.carousel.js"></script>
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
-  <!-- Progressive jquery scroll bar script -->
-  <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script> 
-  <script src="assets/js/XSwitch.min.js"></script> 
-  <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36251023-1']);
-        _gaq.push(['_setDomainName', 'jqueryscript.net']);
-        _gaq.push(['_trackPageview']);
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+   <script src="assets/js/classie.js"></script>
+    <script src="assets/js/main1.js"></script>
 
-  </script> 
-  <script src="assets/js/classie.js"></script>
-  <script src="assets/js/main1.js"></script>
 
 </body>
 </html>
