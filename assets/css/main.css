@@ -100,6 +100,10 @@ img {
   transition: all 0.3s ease;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 =======
 
 >>>>>>> upstream/master
@@ -481,7 +485,7 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   display: block;
 }
 #header .top-header {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 #header .top-header #menu {
   display: block;
@@ -677,6 +681,10 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   opacity: 1;
 }
 /* Works Section End */
+<<<<<<< HEAD
+=======
+/* Organizer Section Start */
+>>>>>>> upstream/master
 #testimonial {
  /* background: url(../img/backgrounds/wtm2.jpeg);*/
   background-color: #03070C;

@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Women Techmakers Buea</title>
   
   <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+
+  <title>Women Techmakers Buea </title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -28,7 +29,7 @@
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
   <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/menu_topexpand.css"> 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
                 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -41,36 +42,28 @@
   <!-- Header Section Start -->
    <div id="header">
     <div class="container">
-    
- <div class="col-md-12 top-header">
+
+      <div class="col-md-12 top-header">
         <div class="logo-menu">
           <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
             <a href="index.html">
               <img src="assets/img/WT_logo_horizontal_pos.png" alt="logo">
             </a>
-          </div> 
-          <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
-            <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-            
-              <span >menu</span>
-            </div> 
-          </div> 
-        </div>
-      <div class="sidebar-nav">
-          <!-- navigation start -->
-          <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style="" id="navigation">
-            <a href="index.html"><img src="assets/img/wtm.png" width="50px" height="50px" alt="logo"></a>
-            <ul class="nav navmenu-nav">
-              <li class="active"><a href="#header">Home</a></li>
 
-              <li><a href="#works">About</a></li>
-              <li><a href="#clients">Projects</a></li>
-              <li><a href="#blog">Events/Calendar</a></li>
-              <li><a href="#feedback">Gallery</a></li>
-            </ul>
+       <div class="menu-wrap">
+         <nav class="menu">
+          <div class="icon-list">
+            <a href="#"><i class="fa fa-fw fa-home fa-lg"></i><span>HOME</span></a>
+            <a href="#"><i class="fa fa-suitcase fa-lg"></i><span>PROJECTS</span></a>
+            <a href="#"><i class="fa fa-camera-retro fa-lg"></i><span>GALLERY</span></a>
+            <a href="#"><i class="fa fa-calendar fa-lg"></i><span>EVENTS/CALENDAR</span></a>
+            <a href="#"><i class="fa fa-female fa-lg"></i><span>ABOUT</span></a>
+            <a href="#"><i class="fa fa-users fa-lg"></i><span>PARTNERS</span></a>
           </div>
-          <!-- navigation End -->
-        </div>     
+        </nav>
+      </div>
+      <button class="menu-button" id="open-button"></button>
+    </div>     
       </div>
 
      <div class="row">
@@ -90,6 +83,49 @@
         </div>
       </div>
     </div>
+
+    <!--Nav Bar Start -->
+    <div class="svg-wrap">
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-left" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
+      </svg>
+
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-right" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
+      </svg>
+    </div>
+    <!-- Nav Bar End -->
+      
+      <!-- <a href="http://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> Arrows with <a href="http://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a>s -->
+      <nav class="nav-split"> <a class="prev" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
+        <use xlink:href="#arrow-left" />
+        </svg></span>
+        <div>
+          <h3>test</h3>
+          <img alt="Previous thumb"/> </div>
+        </a> <a class="next" href=""> <span class="icon-wrap"><svg class="icon" width="22" height="22" viewBox="0 0 64 64">
+        <use xlink:href="#arrow-right" />
+        </svg></span>
+        <div>
+          <h3>test</h3>
+          <img alt="Next thumb"/> </div>
+        </a> </nav>
+      
+     <div class="dotstyle dotstyle-puff">
+  <ul>
+    <li class="active"><a href="#">Home</a></li>
+            <li><a href="#works"> Gallery</a></li>
+            <li><a href="#testimonial"> WTM Organisers</a></li>
+            <li><a href="#clients"> Partners</a></li>
+            <li><a href="#skills"> Event Calendar</a></li>
+            <li><a href="#blog"> Our Projects</a></li>
+            <li><a href="#feedback">Contact Info</a></li> 
+  </ul>
+</div>
+    </div>
+
+
+    <!--Nav Bar End -->
   </div>
   <!-- Header Section End -->
   
@@ -141,12 +177,19 @@
 </div>
 </section>
   <!-- Gallery Section End  -->
+</div>
+</section>
+  <!-- Gallery Section End  -->
+<!-- Testimonial Section Start -->
+  </section>
+  <!-- Work Section End  -->
+
   <!-- Testimonial Section Start -->
   <section id="testimonial">
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Women TechMakers<br>(WTM)<br><span>Organizers</span></h1>
-        <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
+         <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
@@ -155,6 +198,7 @@
             <li data-target="#testimonial-carousel" data-slide-to="3"></li>
             <li data-target="#testimonial-carousel" data-slide-to="4"></li>
             <li data-target="#testimonial-carousel" data-slide-to="5"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="6"></li>
           </ol>
           <div class="carousel-inner">
             <div class="item active">
@@ -163,20 +207,24 @@
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
                       <img src="assets/img/testimonial/MparaFaith.jpg" alt="">
+                          <img src="assets/img/testimonial/MparaFaith.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>TLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Mpara Faith</h4>
-                      <h5>WTM-buea Leader, Founder</h5>
-                      
-                      <p class="img-circle">
-                        <a href="https://www.facebook.com/profile.php?id=100006099376899&fref=ts"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/mpara10"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/104947901967244626615/posts"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+                      Meet<br>
+                        <b>Mpara Faith (WTM-buea Leader and Founder)</b> </br></br>
+                        <p> 
+                          Graduated as a Computer Enginner, Software Engineer to be specific from the University Of Buea. She is also the
+                          Co-Founder / Manager at NGC and Homeware.<br>
+                          Top Skills include: Linux,HTML etc.
+                        </p>
+
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/104947901967244626615/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/profile.php?id=100006099376899&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/mpara10"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                   </div>
                 </div>
@@ -188,20 +236,24 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/NkweteyimDaisy.jpg" alt="">
+                    
+                        <img src="assets/img/testimonial/NkweteyimDaisy.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Nkweteyim Daisy</h4>
-                      <h5>Founder</h5>
-                      <p>
-                        <a href="https://www.facebook.com/daisy.nkweteyim?fref=ts"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/nkweteyimdaisy"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/104947901967244626615/posts"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+                
+                        Meet </br> <b>Nkweteyim Daisy &#40;Founder&#41;</b> </br></br>
+                        <p>
+                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An open source contributor and an advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). I work with the Afrovision group on the Njorku project.
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/daisy.nkweteyim?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/nkweteyimdaisy" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                      
                     </div>
                   </div>
                 </div>
@@ -212,20 +264,22 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/NsianySandra.jpg" alt="">
+                     <img src="assets/img/testimonial/NsianySandra.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Nsiany Sandra</h4>
-                      <h5>Founder</h5>
-                       <p>
-                        <a href="https://www.facebook.com/SandraEmmaNsiany?fref=ts"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/emmabest03"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/104947901967244626615/posts"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+
+                        Meet </br> <b>Nsiany Sandra &#40;Founder&#41; </b> </br></br>
+                        <p>
+                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM). 
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/104947901967244626615/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/SandraEmmaNsiany?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/emmabest03" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                     </div>
                   </div>
                 </div>
@@ -236,20 +290,48 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/NTonia.jpg" alt="">
+                      <img src="assets/img/testimonial/NTonia.jpg" class="img-circle" alt="">
+
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Nkeangnyi Tonia</h4>
-                      <h5>Founder</h5>
-                      <p>
-                        <a href="https://www.facebook.com/tonia.nkeangnyi?fref=ts"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/tonietonia"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/111416768226432557738/posts"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+                        Meet </br> <b>Nkeangnyi Tonia &#40;Founder&#41;</b> </br></br>
+                        <p>
+                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/111416768226432557738/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/tonia.nkeangnyi?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/tonietonia" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                </div>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <div class="item">
+              <blockquote>
+                <div class="commant">
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="claint">
+                      <img src="assets/img/testimonial/NgongIvoline.jpg" class="img-circle" alt="">
+                    </div>
+                    <span class="quote"><i class="fa fa-quote-left"></i></span>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="info">
+
+                        Meet </br> <b>Ngong Ivoline &#40;Founder&#41;</b> </br></br>
+                        <p>
+                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/s/ivoline%20ngong" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ivoline.ngong?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/IvolineNgong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                     </div>
                   </div>
                 </div>
@@ -260,20 +342,23 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/NgongIvoline.jpg" alt="">
+                      <img src="assets/img/testimonial/MobaMelvis.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Ngong Ivoline</h4>
-                      <h5>Founder</h5>
-                      <p>
-                        <a href="https://www.facebook.com/ivoline.ngong?fref=ts"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/IvolineNgong"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/s/ivoline%20ngong"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+
+                        Meet</br> <b>Moba Melvis &#40;Founder&#41;</b> </br></br>
+                        <p>
+                          Final year undergraduate student from the University of Buea, Cameroon studying Computer Engineering. An advocate of increasing the number of females in science, technology, engineering and mathematics (STEM).
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/profile.php?id=100004520132107" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/Ringnyum" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                     
                     </div>
                   </div>
                 </div>
@@ -284,20 +369,21 @@
                 <div class="commant">
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="claint">
-                      <img src="assets/img/testimonial/MobaMelvis.jpg" alt="">
+                      <img src="assets/img/testimonial/NgongIvan.jpg" class="img-circle" alt="">
                     </div>
                     <span class="quote"><i class="fa fa-quote-left"></i></span>
                   </div>
                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <div class="info">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                      <h4>Moba Melvis</h4>
-                      <h5>Founder</h5>
-                      <p>
-                        <a href="https://www.facebook.com/profile.php?id=100004520132107"><img src="assets/img/testimonial/facebook1.png"></a>
-                        <a href="https://twitter.com/Ringnyum"><img src="assets/img/testimonial/twitter1.png"></a>
-                        <a href="https://plus.google.com/s/moba%20melvis%20ringnyu"><img src="assets/img/testimonial/googleplus1.png"></a>
-                      </p>
+                      
+                        Meet </br> <b>Ngong Ivan &#40;Founder&#41;</b> </br></br>
+                        <p>
+                          An Electrical and Electronics Engineering student specialized in Telecommunication Engineering.
+                        </p>
+                        <h5>Get in touch with her: </h5>
+                        <a href="https://plus.google.com/108522470742206129289/posts" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ngong.ivan?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/Ivanngong" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                   </div>
                 </div>
@@ -309,6 +395,7 @@
     </div>
   </section>
   <!-- Testimonial Section End -->
+
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
@@ -465,12 +552,14 @@
         <br>
         <br>
 
-        <div style="text-align:center">
+        <div style="text-align:center">	      
+              <a href="https://plus.google.com/u/0/+tchuenkamulrich" style="color:white;font-size:45px"><i class="fa fa-google-plus"></i></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.facebook.com/"  target="_blank"style="color:white;font-size:45px"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://twitter.com/" style="color:white;font-size:50px"><i class="fa fa-twitter"></i></a>
-              <!-- <a href="" style="color:white"><i class="fa fa-linkedin"></i></a> -->
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://plus.google.com/u/0/+tchuenkamulrich" style="color:white;font-size:50px"><i class="fa fa-google-plus"></i></a>
+              <a href="https://twitter.com/" style="color:white;font-size:45px"><i class="fa fa-twitter"></i></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	      <a href="https://github.com/wtm-buea" style="color:white;font-size:45px"><i class="fa fa-github"></i></a> 
+              
               <!-- <a href="http://youtube.com/" style="color:white"><i class="fa fa-youtube"></i></a> -->
         </div>
       </div>
@@ -522,7 +611,6 @@
   <script src="assets/js/owl.carousel.js"></script>
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
-
   <!-- Progressive jquery scroll bar script -->
   <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script> 
   <script src="assets/js/XSwitch.min.js"></script> 
@@ -538,7 +626,9 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
 
-   </script> 
+  </script> 
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/main1.js"></script>
 
 </body>
 </html>
