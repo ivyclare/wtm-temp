@@ -826,13 +826,15 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   text-transform: uppercase;
 }
 /* Skills Section End */
-/* Blog Section Start */
-#blog .blog-large {
+/* Projects Section Start */
+#projects .blog-large {
   width: 100%;
+  height: 100%;
   margin-top: 28px;
+  display: block;
   position: relative;
 }
-#blog .large {
+#projects .large {
   position: absolute;
   width: 200px;
   height: 196px;
@@ -841,41 +843,42 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
-#blog .large p {
+#projects .large p {
   padding-top: 10px;
 }
-#blog .blog-item {
+#projects .blog-item {
   position: relative;
   color: #454545;
-  font-size: 15px;
+  font-size: 16px;
   width: 100%;
   margin-top: 28px;
   height: 166px;
   overflow: hidden;
 }
-#blog .blog-item .content {
+#projects .blog-item .content {
   background: #d8e5dd;
-  width: 195px;
-  height: 230px;
+  width: 175px;
+  height: 200px;
   position: absolute;
   padding: 15px;
+  opacity: 0.9;
   top: 0;
   right: 0;
   height: 166px;
   overflow: hidden;
 }
-#blog .blog-item .content p {
+#projects .blog-item .content p {
   padding-top: 10px;
 }
-#blog .title {
+#projects .title {
   font-weight: 700;
   text-decoration: none;
   padding-bottom: 12px;
 }
-#blog .title:hover {
+#projects .title:hover {
   color: #82BC00;
 }
-/* Blog Section End */
+/* Projects Section End */
 /* Feedback Section Start */
 #feedback {
   background: url(../img/backgrounds/imgfooter.jpg);

@@ -1,6 +1,7 @@
 #ub {
-    width: 150px;
-    padding-top: 30px;
+    width: 230px;
+    padding-top: 10px;
+    padding-right: -20px;
 }
 
 #activ {
@@ -8,8 +9,9 @@
 }
 
 #activSpaces{
-    width: 150px;
-    padding-top: 20px;
+    width: 273px;
+    padding-top: 10px;
+    padding-left: 45px;
 }
 
 #sponsor{
@@ -17,5 +19,30 @@
 }
 
 #gdg{
-    width: 260px;
+    width: 240px;
+    padding-left: -20px;
+}
+
+#wtm6{
+    height:375px;
+    padding-right:36px;
+}
+
+#wtm2{
+    padding-bottom:20px;
+    height:210px;
+}
+
+#wtm11{
+    height:165px;
+}
+
+#wtm35{
+    height: 190px;
+    padding-bottom: 0px;
+}
+
+#wtm39{
+    height: 160px;
+    padding-top:-50px;
 }
