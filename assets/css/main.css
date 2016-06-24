@@ -678,8 +678,8 @@ nav.tabs ul li a:hover { background-color: #1d2945; }
 /* Works Section End */
 /* about us Section Start */
 #testimonial {
- /* background: url(../img/backgrounds/wtm2.jpeg);*/
-  background-color: #03070C;
+  background: url(../img/backgrounds/skill-bg.jpg);
+  /*background-color: #03070C;*/
   background-size: cover;
   color: #ffffff;
 }
