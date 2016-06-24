@@ -53,8 +53,8 @@
   .circliful {
     margin-left: 50px;
   }
-  /* Blog */
-  #blog .large {
+  /* Projects */
+  #projects .large {
     right: 70px;
   }
   /* Footer Statt */
@@ -163,16 +163,16 @@
     margin: 65px;
   }
   /* Blog Start */
-  #blog .title {
+  #projects .title {
     font-size: 12px;
     padding: 0;
   }
-  #blog .blog-item .content {
+  #projects .blog-item .content {
     width: 170px;
     padding: 5px;
     height: 164px;
   }
-  #blog .blog-item .content p {
+  #projects .blog-item .content p {
     padding-top: 5px;
     font-size: 12px;
   }
