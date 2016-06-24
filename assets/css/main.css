@@ -137,7 +137,7 @@ img {
   border-color: #fff;
 }
 
-.dotstyle {
+/*.dotstyle {
   position: fixed;
   bottom: 10px;
   left: 180px;
@@ -174,8 +174,8 @@ img {
   outline: none;
   border-radius: 50%;
   background-color: #00C6A2;
- /* background-color: rgba(255, 255, 255, 0.3);*/
-  text-indent: -999em; /* make the text accessible to screen readers */
+ /* background-color: rgba(255, 255, 255, 0.3);
+  text-indent: -999em; /* make the text accessible to screen readers 
   cursor: pointer;
   position: absolute;
 }
@@ -184,7 +184,7 @@ img {
   outline: none;
 }
 
-/*for drawing the line*/
+/*for drawing the line
 .dotstyle li::before{
   content: '';
   position: absolute;
@@ -232,7 +232,7 @@ img {
   -webkit-transform: scale(1);
   transform: scale(1);
   
-}
+}*/
 
 /*Navbar Start*/
 
